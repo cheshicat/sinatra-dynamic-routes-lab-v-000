@@ -12,11 +12,6 @@ class App < Sinatra::Base
   end
 
   get '/say/:number/:phrase' do
-    @number = params[:number].to_i
-    @phrase = params[:phrase]
-    until @phrase.count == @number
-      "#{@phrase}"
-    end
   end
 
 end
