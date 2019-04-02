@@ -16,6 +16,7 @@ class App < Sinatra::Base
     (params[:number].to_i).times do
       repeat += "#{params[:phrase]}"
     end
+    repeat
   end
 
 end
