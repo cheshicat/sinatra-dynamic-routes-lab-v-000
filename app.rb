@@ -28,10 +28,9 @@ class App < Sinatra::Base
     operation = params[:operation]
     number1 = params[:number1].to_i
     number2 = params[:number2].to_i
-    if operation == add
-      answer = (number1 + number2)
+    while operation == add
+      answer = number1 + number2
     end
-
     answer
   end
 
