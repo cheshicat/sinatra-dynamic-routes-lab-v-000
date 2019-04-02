@@ -31,7 +31,7 @@ class App < Sinatra::Base
     if operation == "add"
       answer = (number1 + number2)
     end
-    answer
+    answer.to_s
   end
 
 end
