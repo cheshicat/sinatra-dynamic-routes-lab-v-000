@@ -6,4 +6,8 @@ class App < Sinatra::Base
     "#{@name}"
   end
 
+  get '/square/:number' do
+
+  end
+
 end
